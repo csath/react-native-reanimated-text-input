@@ -1,6 +1,6 @@
 {
   "name": "react-native-reanimated-text-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native text input component with a floating label - using  react-native-reanimated",
   "main": "index.js",
   "scripts": {
