@@ -1,5 +1,5 @@
 {
-  "name": "react-native-animated-text-input",
+  "name": "react-native-reanimated-text-input",
   "version": "1.0.0",
   "description": "React Native text input component with a floating label - using  react-native-reanimated",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csath/react-native-animated-text-input.git"
+    "url": "git+https://github.com/csath/react-native-reanimated-text-input.git"
   },
   "keywords": [
     "react-native",
@@ -18,9 +18,9 @@
   "author": "csath (chanakaathurugiriya@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/csath/react-native-animated-text-input/issues"
+    "url": "https://github.com/csath/react-native-reanimated-text-input/issues"
   },
-  "homepage": "https://github.com/csath/react-native-animated-text-input#readme",
+  "homepage": "https://github.com/csath/react-native-reanimated-text-input#readme",
   "peerDependencies": {
     "lodash": "^4.17.15",
     "prop-types": "^15.7.2",

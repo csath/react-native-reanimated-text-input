@@ -14,7 +14,7 @@ import {
   StatusBar,
 } from 'react-native';
 
-import Input from 'react-native-animated-text-input';
+import Input from 'react-native-reanimated-text-input';
 
 const App: () => React$Node = () => {
   const [userName, setUserName] = useState('')

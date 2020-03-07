@@ -1,4 +1,4 @@
-# react-native-animated-text-input
+# react-native-reanimated-text-input
 React Native text input component with a floating label - using  react-native-reanimated.
 
 ## Peer Dependancies
@@ -13,16 +13,16 @@ react-native-reanimated
 
 # Installation
 ```
-yarn add react-native-animated-text-input
+yarn add react-native-reanimated-text-input
 ```
  or 
 ```
-npm install --save react-native-animated-text-input
+npm install --save react-native-reanimated-text-input
 ```
 
 # Usage
 ```js
-import Input from 'react-native-animated-text-input';
+import Input from 'react-native-reanimated-text-input';
 
  <Input
           label={"User name"}
