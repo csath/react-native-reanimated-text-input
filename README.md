@@ -1,4 +1,4 @@
-# react-native-reanimated-text-input
+# react-native-reanimated-text-input [![npm](https://img.shields.io/npm/v/react-native-reanimated-text-input.svg)](https://npmjs.com/package/react-native-reanimated-text-input-reader)  [![npm](https://img.shields.io/npm/dm/react-native-reanimated-text-input.svg)](https://npmjs.com/package/react-native-reanimated-text-input)
 React Native text input component with a floating label - using  react-native-reanimated.
 
 ## Peer Dependancies
