@@ -6,7 +6,7 @@ import {
   Text,
   Platform
 } from 'react-native';
-import Animated, { Clock, useCode, interpolate, Easing, Value, set } from 'react-native-reanimated';
+import Animated, { Clock, useCode, interpolateNode, EasingNode, Value, set } from 'react-native-reanimated';
 import debounce from 'lodash/debounce';
 
 import { theme } from './styles';
@@ -76,7 +76,7 @@ const CustomInput = ({
         duration: 150,
         from: focusedLabel ? 0 : 1,
         to: focusedLabel ? 1 : 0,
-        easing: Easing.linear,
+        easing: EasingNode.linear,
       })
     ),
     [focusedLabel]
@@ -95,11 +95,11 @@ const CustomInput = ({
   )
 
   const focusStyle = {
-    top: interpolate(animation, {
+    top: interpolateNode(animation, {
       inputRange: [0, 1],
       outputRange: [...getLabelPositions((textInputStyle || styles.textInput), (labelTextStyle || styles.label))]
     }),
-    fontSize: interpolate(animation, {
+    fontSize: interpolateNode(animation, {
       inputRange: [0, 1],
       outputRange: [16, 13]
     }),
